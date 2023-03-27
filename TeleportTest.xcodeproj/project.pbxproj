@@ -19,12 +19,12 @@
 		33346E2C29D1EBCE00EBA627 /* AppNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E2B29D1EBCE00EBA627 /* AppNavigation */; };
 		33346E2E29D1EBD400EBA627 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E2D29D1EBD400EBA627 /* Common */; };
 		33346E3029D1EBD800EBA627 /* DI in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E2F29D1EBD800EBA627 /* DI */; };
-		33346E3229D1EBDB00EBA627 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3129D1EBDB00EBA627 /* Domain */; };
 		33346E3429D1EBE000EBA627 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3329D1EBE000EBA627 /* Networking */; };
 		33346E3629D1EBE800EBA627 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3529D1EBE800EBA627 /* Storage */; };
 		33346E3929D1F82D00EBA627 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3829D1F82D00EBA627 /* SwinjectAutoregistration */; };
 		33346E3F29D1FB8400EBA627 /* Looks in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3E29D1FB8400EBA627 /* Looks */; };
 		33346E4529D2157B00EBA627 /* myData.json in Resources */ = {isa = PBXBuildFile; fileRef = 33346E4429D2151F00EBA627 /* myData.json */; };
+		33346E4B29D25D6500EBA627 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E4A29D25D6500EBA627 /* Domain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +74,10 @@
 		33346E1E29D1DDE200EBA627 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 		33346E1F29D1DDFE00EBA627 /* Storage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Storage; sourceTree = "<group>"; };
 		33346E2029D1DE9700EBA627 /* AppNavigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppNavigation; sourceTree = "<group>"; };
-		33346E2329D1DEEE00EBA627 /* DI */ = {isa = PBXFileReference; lastKnownFileType = text; path = DI; sourceTree = SOURCE_ROOT; };
 		33346E2429D1DFDD00EBA627 /* Common */ = {isa = PBXFileReference; lastKnownFileType = text; path = Common; sourceTree = SOURCE_ROOT; };
-		33346E3D29D1FA7900EBA627 /* Looks */ = {isa = PBXFileReference; lastKnownFileType = text; path = Looks; sourceTree = SOURCE_ROOT; };
 		33346E4429D2151F00EBA627 /* myData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = myData.json; sourceTree = "<group>"; };
+		33346E4829D25D0200EBA627 /* DI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DI; sourceTree = "<group>"; };
+		33346E4929D25D1E00EBA627 /* Looks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Looks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33346E4B29D25D6500EBA627 /* Domain in Frameworks */,
 				33346E3F29D1FB8400EBA627 /* Looks in Frameworks */,
-				33346E3229D1EBDB00EBA627 /* Domain in Frameworks */,
 				33346E3029D1EBD800EBA627 /* DI in Frameworks */,
 				33346E2A29D1EBC900EBA627 /* AppData in Frameworks */,
 				33346E2729D1EBB100EBA627 /* Swinject in Frameworks */,
@@ -184,7 +184,7 @@
 		33346E2229D1DECB00EBA627 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				33346E2329D1DEEE00EBA627 /* DI */,
+				33346E4829D25D0200EBA627 /* DI */,
 				33346E2029D1DE9700EBA627 /* AppNavigation */,
 			);
 			path = Main;
@@ -200,7 +200,7 @@
 		33346E3C29D1FA6100EBA627 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				33346E3D29D1FA7900EBA627 /* Looks */,
+				33346E4929D25D1E00EBA627 /* Looks */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -228,11 +228,11 @@
 				33346E2B29D1EBCE00EBA627 /* AppNavigation */,
 				33346E2D29D1EBD400EBA627 /* Common */,
 				33346E2F29D1EBD800EBA627 /* DI */,
-				33346E3129D1EBDB00EBA627 /* Domain */,
 				33346E3329D1EBE000EBA627 /* Networking */,
 				33346E3529D1EBE800EBA627 /* Storage */,
 				33346E3829D1F82D00EBA627 /* SwinjectAutoregistration */,
 				33346E3E29D1FB8400EBA627 /* Looks */,
+				33346E4A29D25D6500EBA627 /* Domain */,
 			);
 			productName = TeleportTest;
 			productReference = 33346DE829D1DD2C00EBA627 /* TeleportTest.app */;
@@ -728,10 +728,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = DI;
 		};
-		33346E3129D1EBDB00EBA627 /* Domain */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Domain;
-		};
 		33346E3329D1EBE000EBA627 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
@@ -748,6 +744,10 @@
 		33346E3E29D1FB8400EBA627 /* Looks */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Looks;
+		};
+		33346E4A29D25D6500EBA627 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
