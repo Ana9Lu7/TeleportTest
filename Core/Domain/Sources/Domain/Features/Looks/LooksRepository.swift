@@ -1,0 +1,13 @@
+//
+//  File.swift
+//  
+//
+//  Created by Ana Luiza on 27/03/23.
+//
+
+import Foundation
+
+public protocol LooksRepository {
+    
+    func getLooks(completion: @escaping (Result<LooksModel, Error>) -> ())
+}
