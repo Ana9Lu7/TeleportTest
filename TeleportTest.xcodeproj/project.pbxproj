@@ -23,7 +23,6 @@
 		33346E3629D1EBE800EBA627 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3529D1EBE800EBA627 /* Storage */; };
 		33346E3929D1F82D00EBA627 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3829D1F82D00EBA627 /* SwinjectAutoregistration */; };
 		33346E3F29D1FB8400EBA627 /* Looks in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E3E29D1FB8400EBA627 /* Looks */; };
-		33346E4529D2157B00EBA627 /* myData.json in Resources */ = {isa = PBXBuildFile; fileRef = 33346E4429D2151F00EBA627 /* myData.json */; };
 		33346E4B29D25D6500EBA627 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 33346E4A29D25D6500EBA627 /* Domain */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +74,6 @@
 		33346E1F29D1DDFE00EBA627 /* Storage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Storage; sourceTree = "<group>"; };
 		33346E2029D1DE9700EBA627 /* AppNavigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppNavigation; sourceTree = "<group>"; };
 		33346E2429D1DFDD00EBA627 /* Common */ = {isa = PBXFileReference; lastKnownFileType = text; path = Common; sourceTree = SOURCE_ROOT; };
-		33346E4429D2151F00EBA627 /* myData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = myData.json; sourceTree = "<group>"; };
 		33346E4829D25D0200EBA627 /* DI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DI; sourceTree = "<group>"; };
 		33346E4929D25D1E00EBA627 /* Looks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Looks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,7 +140,6 @@
 		33346DEA29D1DD2C00EBA627 /* TeleportTest */ = {
 			isa = PBXGroup;
 			children = (
-				33346E4429D2151F00EBA627 /* myData.json */,
 				33346DEB29D1DD2C00EBA627 /* AppDelegate.swift */,
 				33346DED29D1DD2C00EBA627 /* SceneDelegate.swift */,
 				33346DF429D1DD2D00EBA627 /* Assets.xcassets */,
@@ -328,7 +325,6 @@
 			files = (
 				33346DF829D1DD2D00EBA627 /* LaunchScreen.storyboard in Resources */,
 				33346DF529D1DD2D00EBA627 /* Assets.xcassets in Resources */,
-				33346E4529D2157B00EBA627 /* myData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
